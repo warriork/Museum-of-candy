@@ -50,3 +50,33 @@ section {
 a {
   text-decoration: none;
 }
+footer a {
+  font-family: "Nunito", sans-serif;
+  color: #ea121c;
+  font-size: 2rem;
+  font-weight: 100;
+  transitiom: 1s;
+}
+footer a span {
+  color: #f498b8;
+}
+footer a:hover {
+  text-decoration: none;
+  font-weight: 400;
+  color: white;
+}
+footer .copyright {
+  font-weight: 100;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+footer {
+  margin: 0 2%;
+  padding: 10px;
+}
+.copyright p {
+  margin: 0;
+  
+}
